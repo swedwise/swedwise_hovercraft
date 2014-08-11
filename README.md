@@ -26,25 +26,25 @@ if using Python2.7, you'll also need to install configparser::
 
 Clone Swedwise Hovercraft! theme::
 
-  $ cd presentations/
-  $ git clone git@github.com:swedwise/swedwise_hovercraft.git
+   $ cd presentations/
+   $ git clone git@github.com:swedwise/swedwise_hovercraft.git
 
 Create
 ------
 
-Create a folder for your new presentation::
+Create a folder for your new presentation:
 
-  $ mkdir sample
-  $ cd sample
-  $ touch slides.rst
+   $ mkdir sample
+   $ cd sample
+   $ touch slides.rst
 
 Edit the new ReST file to build your presentation. See see https://hovercraft.readthedocs.org/en/1.0/_sources/examples/tutorial.txt for an example of a presentation written with ReST
 
-Once you have written your slides, convert the file into the presentation::
+Once you have written your slides, convert the file into the presentation:
 
-  $ cd presentations/sample/
-  $ workon presentations
-  (presentations)$ hovercraft -t ../swedwise_hovercraft slides.rst .
+   $ cd presentations/sample/
+   $ workon presentations
+   (presentations)$ hovercraft -t ../swedwise_hovercraft slides.rst .
 
 You can now view the `index.html` that was created in a browser, or put your presentation's folder on the web. 
 
