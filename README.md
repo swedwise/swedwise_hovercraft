@@ -15,7 +15,7 @@ Install
 
 The supported Python version for Hovercraft is Python 3.
 
-Install Hovercraft inside a virtualenvwrapper:
+Install Hovercraft inside a virtualenv wrapper:
 
     $ mkvirtualenv --no-site-packages presentations
     (presentations)$ pip install hovercraft
