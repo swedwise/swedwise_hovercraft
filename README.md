@@ -15,16 +15,16 @@ Install
 
 The supported Python version for Hovercraft is Python 3.
 
-Install Hovercraft inside a virtualenvwrapper::
+Install Hovercraft inside a virtualenvwrapper:
 
     $ mkvirtualenv --no-site-packages presentations
     (presentations)$ pip install hovercraft
   
-if using Python2.7, you'll also need to install configparser:: 
+if using Python2.7, you'll also need to install configparser:
  
     (presentations)$ pip install configparser
 
-Clone Swedwise Hovercraft! theme::
+Clone Swedwise Hovercraft! theme:
 
     $ cd presentations/
     $ git clone git@github.com:swedwise/swedwise_hovercraft.git
